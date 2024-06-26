@@ -1,4 +1,4 @@
-package basic_types
+package _2_basic_types
 
 fun main() {
     var customers = 10

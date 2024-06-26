@@ -1,4 +1,4 @@
-package collections
+package _3_collections
 
 fun main() {
 
