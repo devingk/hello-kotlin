@@ -1,7 +1,9 @@
 package _6_classes
 
 class Contact(val id: Int, var email: String) {
-    val category: String = ""
+    fun printId() {
+        println(id)
+    }
 }
 
 fun main() {
@@ -12,4 +14,6 @@ fun main() {
     contact.email = "jane@gmail.com"
 
     println(contact.email)
+
+    contact.printId()
 }
